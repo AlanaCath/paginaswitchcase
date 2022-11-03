@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Comfortaa&family=Fasthand&display=swap" rel="stylesheet">
+    <title>Cremes Ivone</title>
+</head>
+
+<style>
+    body {
+        background-color:rgb(32, 178, 154);
+        color: azure;
+        
+        font-family: 'Comfortaa', cursive;
+        text-shadow: 100%, rgb(11, 19, 20);
+        }
+    header {
+        background-color: rgba(142, 207, 198, 0.804); text-shadow: rgb(77, 117, 112) 0.1em 0.1em 0.2em; ;
+    }
+
+    section.skincare {
+        position: absolute; left: 2%; top: 5%
+    }
+    
+    li {display: inline-block; position: relative; left: 40%;}
+
+
+
+</style>
+
+<body>
+    <header><h1>Cremes Ivone</h1></header>
+    
+    <ul>
+        <a href="#"><li>Início</li></a>
+        <a href="#"><li>Nossos produtos</li></a>
+        <a href="#"><li>Contato</li></a>
+        <a href="#"><li>Sobre</li></a>
+
+    </ul>
+
+    <section class="skincare">
+        <img src="skincare.png" width="500px">
+    </section>
+   
+    <section class="cremes">
+        <img src="cremes.webp" width="">
+    </section>
+
+    <div class="corporal">
+        <img src="corporal.jpg" width="280px">
+        <p><a href="#">Creme corporal</a></p>
+        <
+        
+    </div>
+    <div class="locao">
+        <img src="locao.jpg" width="280px">
+        <p><a href="#">Loção corporal</a></p>
+        
+    </div>
+    <div class="facial">
+        <img src="facial.png" width="280px">
+        <p><a href="#">Creme facial</a></p>
+        
+    </div>
+    
+    <div class="mao">
+        <img src="mao.jpg" width="280px">
+        <p><a href="#">Creme para as mãos</a></p>
+        
+    </div>
+   
+   
+   <script type="text/javascript">
+var Cremes = prompt("Digite o produto desejado: ");
+
+switch(Cremes) {
+    case "Creme corporal":
+        document.write("Preço:30,00");
+        
+        break
+    case "Creme para as mãos":
+        document.write("Preço:20,00");
+
+        break
+    
+    case "Loção corporal":
+        document.write("Preço:40,00");
+        break
+    
+    case "Creme facial":
+        document.write("Preço:65,00");
+        break
+    
+    default:
+        document.write("Produto indisponivel")
+    
+
+}
+    </script>
+</body>
